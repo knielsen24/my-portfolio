@@ -1,6 +1,9 @@
 import React from "react";
 
 function Navbar() {
+
+    const resumeLink = "https://drive.google.com/file/d/1pISnKWE8o6euaoca8FmlsAMnBAgudGTM/view?usp=sharing"
+
     return (
         <nav class="navbar navbar-expand-sm bg-dark-grey mw-75">
             <div class="container-fluid">
@@ -45,7 +48,7 @@ function Navbar() {
                             </a>
                         </li>
                         <li class="nav-item align-self-center ">
-                            <button class="rounded bg-transparent border-orange text-orange nav-link py-0 px-2" href="#">
+                            <button class="rounded bg-transparent border-orange text-orange nav-link py-0 px-2" href={resumeLink}>
                                 Resume
                             </button>
                         </li>
